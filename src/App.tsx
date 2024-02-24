@@ -1,7 +1,12 @@
-import './App.css';
+import { Reset } from 'styled-reset';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Reset />
+      <h1>asdasd</h1>
+    </>
+  );
 }
 
 export default App;
